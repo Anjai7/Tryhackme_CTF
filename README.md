@@ -82,7 +82,7 @@ sudo vim
 ![Previlage](https://github.com/Anjai7/Tryhackme_CTF/blob/main/previlage.png)
 ![Root](https://github.com/Anjai7/Tryhackme_CTF/blob/main/root.png)
 
-## Lessons Learned
+## 💡Lessons Learned
 
 ->Always pay attention to non-standard SSH ports.
 
