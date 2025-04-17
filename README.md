@@ -35,7 +35,7 @@ The initial exploit was written in Python2. I searched for a Python3 version and
 
 I integrated this script with the original exploit and executed it. The process took about 10-15 minutes.
 
-![Exploit Execution](https://raw.githubusercontent.com/Anjai7/Tryhackme_CTF/main/hashcracking.png)
+![Exploit Execution](https://github.com/Anjai7/Tryhackme_CTF/blob/main/credentials.png)
 
 ## Cracking the Password Hash
 
