@@ -3,7 +3,7 @@
 ## Nmap Scan
 I started my attack by running an Nmap scan to discover the open ports and the services that were running on the target machine.
 
-![Nmap Scan](https://hackmd.io/_uploads/rkGHNORRkg.png)
+![Nmap Scan]([https://hackmd.io/_uploads/rkGHNORRkg.png](https://github.com/Anjai7/Tryhackme_CTF/blob/c8dec414c401d40fad47649a7cf7d6dff9f4c098/nmap.png))
 
 From the scan, I saw that FTP, HTTP, and SSH services were all running on the target.
 
