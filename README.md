@@ -1,4 +1,4 @@
-# TryHackMe Write-up
+#### TryHackMe: Simple CTF Write-Up
 
 ## Nmap Scan
 
@@ -65,11 +65,20 @@ ssh mitch@10.10.2.131 -p 2222
 ![SSH Access](https://github.com/Anjai7/Tryhackme_CTF/blob/main/ssh.png)
 
 ## Finding User
-
+Navigate to home dirctory and use ls
+```bash
+cd /home/
+ls
+```
 ![User](https://github.com/Anjai7/Tryhackme_CTF/blob/main/user.png)
 
 ## Previlage Execution
+Unable to spawn a privileged shell through my initial attempts, I consulted other write-ups and discovered that leveraging vim with sudo permissions could be used for privilege escalation.
 ```bash
 sudo vim
 ```
+```bash
+:!bash
+```
+[!Previlage](https://github.com/Anjai7/Tryhackme_CTF/blob/main/previlage.png)
 ![Root](https://github.com/Anjai7/Tryhackme_CTF/blob/main/root.png)
