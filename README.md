@@ -82,7 +82,7 @@ sudo vim
 ![Previlage](https://github.com/Anjai7/Tryhackme_CTF/blob/main/previlage.png)
 ![Root](https://github.com/Anjai7/Tryhackme_CTF/blob/main/root.png)
 
-##Lessons Learned
+## Lessons Learned
 ->Always pay attention to non-standard SSH ports.
 ->Use the wordlist they give you—it's like using a cheat code!
 ->If an exploit is in Python2, always search for a Python3 alternative.
