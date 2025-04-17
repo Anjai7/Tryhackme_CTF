@@ -1,4 +1,4 @@
-#### TryHackMe: Simple CTF Write-Up
+# TryHackMe: Simple CTF Write-Up
 
 ## Nmap Scan
 
