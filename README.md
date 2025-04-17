@@ -26,7 +26,7 @@ This led me to the path [http://10.10.2.131/simple/](http://10.10.2.131/simple/)
 
 I used SearchSploit to find a relevant exploit and found a SQL injection vulnerability.
 
-![SearchSploit Results](https://raw.githubusercontent.com/Anjai7/Tryhackme_CTF/main/searchsploit.png)
+![SearchSploit Results](https://github.com/Anjai7/Tryhackme_CTF/blob/main/exploit.png)
 ## Exploit Execution
 
 The initial exploit was written in Python2. I searched for a Python3 version and found it on GitHub:
