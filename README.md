@@ -57,8 +57,7 @@ The exploit provided a salt and password hash, which I used with Hashcat to crac
 
 ## SSH Access
 
-Using the cracked password, I connected via SSH:
-
+After cracking the password, I attempted to SSH into the system - but my initial connection failed because I hadn't noticed SSH was running on port 2222 instead of the default port 22. A quick review of my earlier Nmap scan revealed my oversight, and using the correct port gave me successful access.
 ```bash
 ssh mitch@10.10.2.131 -p 2222
 ```
@@ -73,7 +72,7 @@ ls
 ![User](https://github.com/Anjai7/Tryhackme_CTF/blob/main/user.png)
 
 ## Previlage Execution
-Unable to spawn a privileged shell through my initial attempts, I consulted other write-ups and discovered that leveraging vim with sudo permissions could be used for privilege escalation.
+Unable to spawn a privileged shell through my initial attempts, I referred other write-ups and discovered that leveraging vim with sudo permissions could be used for privilege escalation.
 ```bash
 sudo vim
 ```
@@ -82,3 +81,9 @@ sudo vim
 ```
 ![Previlage](https://github.com/Anjai7/Tryhackme_CTF/blob/main/previlage.png)
 ![Root](https://github.com/Anjai7/Tryhackme_CTF/blob/main/root.png)
+#Lessons Learned
+->Always pay attention to non-standard SSH ports.
+->Use the wordlist they give you—it's like using a cheat code!
+->If an exploit is in Python2, always search for a Python3 alternative.
+->Vim + sudo = possible root access if not properly restricted.
+
