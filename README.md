@@ -80,5 +80,5 @@ sudo vim
 ```bash
 :!bash
 ```
-[!Previlage](https://github.com/Anjai7/Tryhackme_CTF/blob/main/previlage.png)
+![Previlage](https://github.com/Anjai7/Tryhackme_CTF/blob/main/previlage.png)
 ![Root](https://github.com/Anjai7/Tryhackme_CTF/blob/main/root.png)
