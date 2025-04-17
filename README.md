@@ -13,4 +13,6 @@ Started with an `nmap` scan to identify open ports and running services.
 
 ```bash
 nmap  -sV  10.10.2.131
+```
+
 ![Nmap Scan](https://github.com/Anjai7/Tryhackme_CTF/blob/main/nmap.png?raw=true)
