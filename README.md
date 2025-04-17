@@ -26,7 +26,7 @@ This led me to the path [http://10.10.2.131/simple/](http://10.10.2.131/simple/)
 
 I used SearchSploit to find a relevant exploit and found a SQL injection vulnerability.
 
-![SearchSploit Results](https://raw.githubusercontent.com/Anjai7/Tryhackme_CTF/main/searchsploit.png)
+![SearchSploit Results]([https://raw.githubusercontent.com/Anjai7/Tryhackme_CTF/main/searchsploit.png](https://github.com/Anjai7/Tryhackme_CTF/blob/998c49dc25cc3db029851c52154d06e6eadf195c/exploit.png))
 
 ## Exploit Execution
 
