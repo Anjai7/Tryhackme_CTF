@@ -16,3 +16,10 @@ nmap  -sV  10.10.2.131
 ```
 
 ![Nmap Scan](https://github.com/Anjai7/Tryhackme_CTF/blob/main/nmap.png?raw=true)
+### Open Ports Identified:
+- **FTP** (Port 21)
+- **HTTP** (Port 80)
+- **SSH** (Port 2222)
+
+This helped answer the first two questions in the TryHackMe room.
+
