@@ -60,7 +60,7 @@ The exploit provided a salt and password hash, which I used with Hashcat to crac
 Using the cracked password, I connected via SSH:
 
 ```bash
-ssh -v mitch@10.10.2.131 -p 2222
+ssh mitch@10.10.2.131 -p 2222
 ```
 ![SSH Access](https://github.com/Anjai7/Tryhackme_CTF/blob/main/ssh.png)
 
