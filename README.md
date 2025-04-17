@@ -13,4 +13,4 @@ Started with an `nmap` scan to identify open ports and running services.
 
 ```bash
 nmap  -sV  10.10.2.131
-![Nmap Scan](https://github.com/Anjai7/Tryhackme_CTF/blob/f51f367164480e655acb46cb9d7c14fbbcf033b3/nmap.png?raw=true)
+![Nmap Scan](https://github.com/Anjai7/Tryhackme_CTF/blob/main/nmap.png?raw=true)
